@@ -2,14 +2,28 @@
 
 Eclipse Neon JEE, C++, PHP, JS and Android
 
+Requirements:
+
+   $ sudo yum install -y 'gtk2-engines-*' 'gtk3-engines*'
+
 ## Midnight Devil
 
-Instale o eclipse, desabilite os temas em "aparência, aplique as preferências "Midnight_Devil.epf" e altere a linha de
-comando para:
+- Install Eclipse Neon on /opt/eclipse/something
+- Download eclipse-midnight.tgz
+- Disable themming on "Window > Preferences > General > Appearance"
+- Unpack, as root, on your filesystem root
+- Import "/opt/eclipse/Midnight_Devil.epf" preferences on Eclipse ("Import > Preferences")
+- Start eclipse using:
 
 	# env SWT_GTK3=0 GTK2_RC_FILES=/opt/eclipse/midnight.gtkrc  GTK_THEME=Adwaita:dark /opt/eclipse/cpp-neon/eclipse/eclipse
 
+Obs: the .tar.gz has /usr/share/application/eclipse*.desktop entries for the Gnome Shell.
+ 
 ![image](screenshot_midnight_devil.png)
+
+
+
+Bellow is my old theme using Moonrise, for those who like a lighter theme. In pt_BR only.
 
 ## Usando o tema e o Moonrise com o Moonrise Devil
 
@@ -17,8 +31,6 @@ Este procedimento precisa ser feito para cada Workspace que tiver. Não tenha ap
 performance. Faça uma instalação do Neon por objetivo (estou com 4: PHP, JS, Android e JEE).
 
 - Instale o Eclipse Neon para o que quiser (PHP, JEE, etc) em /opt/eclipse/php-neon (por exemplo)
-- Instale o Darktable (de onde vamos pegar o tema gtk2), e as máquinas de temas do GTK2 e 3
-   $ sudo yum install -y 'darktable*' 'gtk2-engines-*' 'gtk3-engines*'
 - Abra o Gnome Tweak:
     - Defina o thema GTK e Shell para FlatPlat, Icons e Cursor para Paper
     - Ative o Global Dark Theme
