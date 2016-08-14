@@ -2,6 +2,16 @@
 
 Eclipse Neon JEE, C++, PHP, JS and Android
 
+## Midnight Devil
+
+Instale o eclipse, desabilite os temas em "aparência, aplique as preferências "Midnight_Devil.epf" e altere a linha de
+comando para:
+
+	# env SWT_GTK3=0 GTK2_RC_FILES=/opt/eclipse/midnight.gtkrc  GTK_THEME=Adwaita:dark /opt/eclipse/cpp-neon/eclipse/eclipse
+
+![image](screenshot_midnight_devil)
+
+## Usando o tema e o Moonrise com o Moonrise Devil
 
 Este procedimento precisa ser feito para cada Workspace que tiver. Não tenha apenas um para tudo para evitar problemas de
 performance. Faça uma instalação do Neon por objetivo (estou com 4: PHP, JS, Android e JEE).
