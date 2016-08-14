@@ -9,7 +9,7 @@ comando para:
 
 	# env SWT_GTK3=0 GTK2_RC_FILES=/opt/eclipse/midnight.gtkrc  GTK_THEME=Adwaita:dark /opt/eclipse/cpp-neon/eclipse/eclipse
 
-![image](screenshot_midnight_devil)
+![image](screenshot_midnight_devil.png)
 
 ## Usando o tema e o Moonrise com o Moonrise Devil
 
