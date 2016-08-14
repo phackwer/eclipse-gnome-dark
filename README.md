@@ -15,7 +15,7 @@ Requirements:
 - Import "/opt/eclipse/Midnight_Devil.epf" preferences on Eclipse ("Import > Preferences")
 - Start eclipse using:
 
-	# env SWT_GTK3=0 GTK2_RC_FILES=/opt/eclipse/midnight.gtkrc  GTK_THEME=Adwaita:dark /opt/eclipse/cpp-neon/eclipse/eclipse
+	env SWT_GTK3=0 GTK2_RC_FILES=/opt/eclipse/midnight.gtkrc  GTK_THEME=Adwaita:dark /opt/eclipse/cpp-neon/eclipse/eclipse
 
 Obs: the .tar.gz has /usr/share/application/eclipse*.desktop entries for the Gnome Shell.
  
