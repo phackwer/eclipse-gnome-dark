@@ -1,0 +1,7 @@
+[Desktop Entry]
+Name=Eclipse C++
+Exec=env SWT_GTK3=0 GTK2_RC_FILES=/opt/eclipse/midnight.gtkrc GTK_THEME=Adwaita:dark /opt/eclipse/cpp-neon/eclipse/eclipse
+Type=Application
+Icon=/opt/eclipse/cpp-neon/eclipse/icon.xpm
+Terminal=false
+Categories=TextEditor;IDE;Development
